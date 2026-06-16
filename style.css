@@ -2,6 +2,30 @@ body {
     margin: 0;
 }
 
+
+.logotype{
+    border-radius: 60%;
+    width: 50px;
+}
+
+.logopart{
+    color: white;
+    margin-top: 15px;
+    margin-left: 20px;
+    font-size: 20px;
+    font-family:  Montserrat SemiBold;
+}
+
+
+
+.lupa{
+    border-radius: 60%;
+    width: 60px;
+}
+
+
+
+
 header {
     display: flex;
     justify-content: space-between; 
@@ -26,7 +50,7 @@ header {
   margin-right: 200px;    
     list-style: none;
     font-family: Montserrat SemiBold;
-    text-decoration: none;
+    
 }
 
 
@@ -37,9 +61,169 @@ header {
        margin-right: 200px; 
           margin-left: auto;
     font-family: Montserrat SemiBold;
-   
+ margin-top: 15px;
 }
 
 .card-btn{
-    color: rgba(0, 128, 0, 0.836);
+    color: white;
+    text-decoration: none;
+   
 }
+
+
+.header-item{
+     margin-top: 15px;
+}
+
+
+
+.card-btn:hover{
+    color: green;
+}
+
+
+.first-div{
+    background-color: rgba(0, 0, 0, 0.315);
+}
+
+
+.hero-elem{
+    font-family: Montserrat ExtraBold;
+    margin-left: 100px;
+  color: rgba(0, 0, 0, 0.884);
+    font-weight: bold;
+    font-size: 50px;
+}
+
+
+.main-ideal{
+    margin-bottom: 100px;
+    margin-left: 110px;
+    font-family: Montserrat Regular;
+    color: rgb(0, 0, 0);
+}
+
+
+
+.main-btn{
+    background-color: rgba(0, 128, 0, 0.836);
+    font-family: Montserrat SemiBold;
+    border: none;
+    border-radius: 4px;
+    padding: 20px 35px;
+    margin-left: 110px;
+    
+}
+
+
+
+
+
+.main-btn{
+color: white;
+    transform: translateY(-90px);
+}
+
+.first-div{
+    background-image: url(https://merida-bikes.com.ua/content/images/45/1440x432e90nn0/17856599080807.jpg);
+background-repeat: no-repeat;
+
+    background-size: cover;
+   background-position: center;
+
+}
+
+
+
+
+
+.info-section{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.info {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  list-style: none;
+  margin-top: 50px;
+  margin-bottom: 70px;
+font-family: Roboto Regular;
+}
+
+
+.info-peshka{
+    font-family: Roboto Regular;
+    
+}
+
+
+
+.bikes-modal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.product-elem{
+      display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+
+
+.product-words{
+    font-family: Montserrat SemiBold;
+}
+
+
+.product-text{
+    font-family: Montserrat ;
+}
+
+
+.product-btn{
+    background-color: rgba(0, 128, 0, 0.836);
+    font-family: Montserrat SemiBold;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 35px;
+  margin-top: 20px;
+  margin-bottom: 120px;
+}
+
+
+.bikes-modal{
+    font-family: Montserrat SemiBold;
+    font-size: 35px;
+    margin-bottom: 40px;
+}
+
+
+
+.velo-footer{
+    background-color: rgba(0, 0, 0, 0.877); 
+}
+
+
+.velo-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+   font-family: Montserrat SemiBold;
+    color: white;
+}
+
+.conection{
+    color: white;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
