@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    
 }
 
 
@@ -93,14 +94,17 @@ header {
   color: rgba(0, 0, 0, 0.884);
     font-weight: bold;
     font-size: 50px;
+   
 }
 
 
 .main-ideal{
-    margin-bottom: 100px;
+    margin-bottom: 110px;
     margin-left: 110px;
     font-family: Montserrat Regular;
     color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    margin-top: 30px;
 }
 
 
@@ -112,17 +116,15 @@ header {
     border-radius: 4px;
     padding: 20px 35px;
     margin-left: 110px;
-    
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    color: white;
 }
 
 
 
 
 
-.main-btn{
-color: white;
-    transform: translateY(-90px);
-}
+
 
 .first-div{
     background-image: url(https://merida-bikes.com.ua/content/images/45/1440x432e90nn0/17856599080807.jpg);
@@ -165,6 +167,7 @@ font-family: Roboto Regular;
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 
@@ -195,6 +198,8 @@ font-family: Roboto Regular;
     padding: 10px 35px;
   margin-top: 20px;
   margin-bottom: 120px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  color: white;
 }
 
 
@@ -227,3 +232,124 @@ font-family: Roboto Regular;
 }
 
 
+.about-shop{
+    font-family: Montserrat SemiBold;
+}
+
+.about-magaz{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.about-peshka{
+     align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+        color: white;
+}
+
+
+.partners{
+        font-family: Montserrat SemiBold;
+margin-bottom: 40px;
+display: flex;
+justify-content: center;
+align-items: center;
+color: white;
+}
+
+.partners-img{
+    width: 250px;
+
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.partner{
+    font-size: 20px;
+    color: white;
+}
+
+
+
+
+
+.partners-card{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 80px;
+   
+}
+
+.velo-img{
+    width: 300px;
+    gap: 50px;
+    border-radius: 30px;
+}
+
+
+
+.bcg-main{
+   background-color: rgba(0, 0, 0, 0.877);
+   padding-bottom: 50px;
+   padding-top: 50px;
+}
+
+
+.popular-modals{
+    
+   background-color: rgb(243, 243, 243);
+}
+
+
+.about-bikes{
+    background-color: rgb(243, 243, 243);
+    width: 100%;
+}
+
+
+
+/* АНІМАЦІІ */
+
+
+
+.main-btn:hover{
+    transform: scale(1.08);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+
+
+.hero-elem,
+.main-ideal {
+    opacity: 0;
+    transform: translateX(-100px);
+    animation: slideInLeft 0.8s ease forwards;
+}
+
+.main-ideal {
+    animation-delay: 0.2s;
+}
+
+.hero-elem {
+    animation-delay: 0.4s;
+}
+
+@keyframes slideInLeft {
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+
+
+.product-btn:hover{
+        transform: scale(1.1);
+}
