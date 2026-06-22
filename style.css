@@ -1,3 +1,13 @@
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+
 body {
     margin: 0;
     
@@ -28,11 +38,11 @@ body {
 
 
 header {
-    display: flex;
-    justify-content: space-between; 
-    align-items: flex-start;        
+        
     padding: 20px 40px; 
-      
+        display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
     background-color: rgba(0, 0, 0, 0.877);   
     
 }
@@ -235,6 +245,7 @@ font-family: Roboto Regular;
 .velo-footer{
     display: flex;
     align-items: center;
+    
    
    font-family: Montserrat SemiBold;
     color: white;
